@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dynamic Multiplication Table</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>Dynamic Multiplication Table</h1>
+
+    <form id="multiplicationForm">
+        <label>Start Multiplier (Horizontal): <input type="number" id="startX" required /></label>
+        <label>End Multiplier (Horizontal): <input type="number" id="endX" required /></label>
+        <label>Start Multiplicand (Vertical): <input type="number" id="startY" required /></label>
+        <label>End Multiplicand (Vertical): <input type="number" id="endY" required /></label>
+        <button type="submit">Generate Table</button>
+    </form>
+
+    <div id="errorMessage"></div>
+
+    <div id="tableContainer" class="table-container"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
