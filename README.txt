@@ -5,7 +5,7 @@ Email: Joseph_Butti@student.uml.edu
 Student ID: 02032452
 
 GitHub Repository URL:  
-https://github.com/yourusername/your-repo-name
+https://jvbutt22.github.io/Passion-page/
 
 Description:
 This project is a dynamic single-page web application that generates a multiplication table based on user-input ranges for multipliers and multiplicands. It demonstrates form handling, input validation, and dynamic DOM manipulation using vanilla JavaScript.
